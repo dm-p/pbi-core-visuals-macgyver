@@ -22,4 +22,4 @@ Every now and again, I'll come up with something using core visuals that might b
 
 <img src="./box-whisker-plot-error-bars/box-whisker-plot-error-bars.png" height="250"/>
 
-This approach uses a clustered bar chart, statistical measures, and error bars to create a layered box and whisker plot. This approach offers the advantage of calculating the statistics over your desired data set rather than the conventional approach of using a custom visual, supplying an index column, and having that visual calculate everything (which can only support a limited dataset).
+A clustered bar chart, statistical measures, and error bars are used to create a layered box and whisker plot. While we could do this with a custom visual (or R/Python) using minimal effort, we can be constrained by the amount of data we can add to its dataset before Power BI will cap it, so if we have millions (or billions) of data points we want to evaluate, we can do this very quickly using DAX to compute the statistics and then using error bars to create the primitive shapes needed for a box and whisker plot and bind their attributes to these measures.
