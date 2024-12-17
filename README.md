@@ -18,7 +18,7 @@ Every now and again, I'll come up with something using core visuals that might b
 
 ## 📎 Box and Whisker Plot (Clustered Bar Chart)
 
-[ [.pbix](./box-whisker-plot-error-bars/box-whisker-plot-error-bars.pbix) ] [ Video Pending ]
+[ [.pbix](./box-whisker-plot-error-bars/box-whisker-plot-error-bars.pbix) ] [ [Video](https://www.youtube.com/watch?v=67ZE4qCSSw4) ]
 
 <img src="./box-whisker-plot-error-bars/box-whisker-plot-error-bars.png" height="250"/>
 
